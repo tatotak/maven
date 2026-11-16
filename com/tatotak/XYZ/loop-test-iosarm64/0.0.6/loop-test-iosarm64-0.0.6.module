@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../loop-test/0.0.6/loop-test-0.0.6.module",
+    "group": "com.tatotak.XYZ",
+    "module": "loop-test",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.XYZ",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-test-iosArm64Main.klib",
+          "url": "loop-test-iosarm64-0.0.6.klib",
+          "size": 24788,
+          "sha512": "223a3bbade60a41785fb50786278303f4d7bed2a20b9655729365ea30281c785e8f950ee03bd8f057f46c91b65aa968b8f7a840bb22262cb255029f31d257674",
+          "sha256": "e09b28d4789db40489c156b31b514633a063c65385e54213a69cf5a9014f22e5",
+          "sha1": "f5314e1d5f7298884e0fef5943347178eb4c7f72",
+          "md5": "072b91ada0db3bdd384dcd1f12ff1dcb"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "loop-test-iosarm64-sources.jar",
+          "url": "loop-test-iosarm64-0.0.6-sources.jar",
+          "size": 5094,
+          "sha512": "457a239a5f64ce4d3f1b6d3712c9657cdbfbbf0bfbb10f083c4fd0140710f6bff61a2ee1f0acc07ef7c8636927a099701614acfb42711fe9141134f6ed3b863d",
+          "sha256": "0d1ab1c95de6cfaa05df3e32d39161976b17f47cc509d10797789f3d047170a5",
+          "sha1": "222d110c4b14ac990c2a7723b4054bd25e88ef8b",
+          "md5": "65f1986662096c66d962d3a8295f0702"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.XYZ",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-test-iosarm64-metadata.jar",
+          "url": "loop-test-iosarm64-0.0.6-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
