@@ -1,0 +1,290 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tatotak.loop",
+    "module": "loop-lifecycle",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-lifecycle-metadata.jar",
+          "url": "loop-lifecycle-0.0.8.jar",
+          "size": 2736,
+          "sha512": "adf52a15c31517c42f2ec8c9b164926c5c9b594e8d117dd3c8d1024276cb4012d902144cd4d34d1e58a8bfc0b2e503bc2c7ba4299c7249d3145753f497494e95",
+          "sha256": "5f97ecb4cfa9b92034b899b059f7ba31db1fc2838c74063b0b5a46ae967a363e",
+          "sha1": "dc783ad6319854d0d1ed0c3e8395d404824cf4d1",
+          "md5": "d4e868d0979d4011de6aae787839c2de"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "loop-lifecycle-kotlin-sources.jar",
+          "url": "loop-lifecycle-0.0.8-sources.jar",
+          "size": 1420,
+          "sha512": "d223211488e0104e8c28f8cb7535849e73e76e8617b908e6fa4a1d7c92a88e4697b3b33decfaba10c7227877fae060394f81e7c406469584ee545ccbe6acd05d",
+          "sha256": "f57bf4aa7ca4ea45dc1a187255d584cde68bcda22163bcefa928964e341dac1e",
+          "sha1": "98503fd2fc24070fec0d901cdf69e6cd57cc74a7",
+          "md5": "d1508359152abda534ec6e7ce32c203d"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-android/0.0.8/loop-lifecycle-android-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-android",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-android/0.0.8/loop-lifecycle-android-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-android",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-android/0.0.8/loop-lifecycle-android-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-android",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iosarm64/0.0.8/loop-lifecycle-iosarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iosarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iosarm64/0.0.8/loop-lifecycle-iosarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iosarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iosarm64/0.0.8/loop-lifecycle-iosarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iosarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iossimulatorarm64/0.0.8/loop-lifecycle-iossimulatorarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iossimulatorarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iossimulatorarm64/0.0.8/loop-lifecycle-iossimulatorarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iossimulatorarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-iossimulatorarm64/0.0.8/loop-lifecycle-iossimulatorarm64-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-iossimulatorarm64",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-jvm/0.0.8/loop-lifecycle-jvm-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-jvm",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-jvm/0.0.8/loop-lifecycle-jvm-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-jvm",
+        "version": "0.0.8"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-lifecycle-jvm/0.0.8/loop-lifecycle-jvm-0.0.8.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-lifecycle-jvm",
+        "version": "0.0.8"
+      }
+    }
+  ]
+}

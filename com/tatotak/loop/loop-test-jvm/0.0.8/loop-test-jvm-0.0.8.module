@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../loop-test/0.0.8/loop-test-0.0.8.module",
+    "group": "com.tatotak.loop",
+    "module": "loop-test",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-test-jvm.jar",
+          "url": "loop-test-jvm-0.0.8.jar",
+          "size": 24516,
+          "sha512": "519b26b3df3a88430177c55060fc30d26f70cd6f935a45e80ace7948a9d47c546e7e80ac136731fa2e03962f71e195a2e6b0891ca9f2aaf3f4512f1ed5e16b7e",
+          "sha256": "7588b86535b8b3eb4a623dae0f5753bf1b9bc9383eec2a705c780190807b7d8e",
+          "sha1": "855fed6c50c31ed4d249562f13f470f9bb2e9d00",
+          "md5": "60cf95105135e1397ccc5206dd83b96f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-test-jvm.jar",
+          "url": "loop-test-jvm-0.0.8.jar",
+          "size": 24516,
+          "sha512": "519b26b3df3a88430177c55060fc30d26f70cd6f935a45e80ace7948a9d47c546e7e80ac136731fa2e03962f71e195a2e6b0891ca9f2aaf3f4512f1ed5e16b7e",
+          "sha256": "7588b86535b8b3eb4a623dae0f5753bf1b9bc9383eec2a705c780190807b7d8e",
+          "sha1": "855fed6c50c31ed4d249562f13f470f9bb2e9d00",
+          "md5": "60cf95105135e1397ccc5206dd83b96f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "loop-test-jvm-sources.jar",
+          "url": "loop-test-jvm-0.0.8-sources.jar",
+          "size": 5094,
+          "sha512": "457a239a5f64ce4d3f1b6d3712c9657cdbfbbf0bfbb10f083c4fd0140710f6bff61a2ee1f0acc07ef7c8636927a099701614acfb42711fe9141134f6ed3b863d",
+          "sha256": "0d1ab1c95de6cfaa05df3e32d39161976b17f47cc509d10797789f3d047170a5",
+          "sha1": "222d110c4b14ac990c2a7723b4054bd25e88ef8b",
+          "md5": "65f1986662096c66d962d3a8295f0702"
+        }
+      ]
+    }
+  ]
+}

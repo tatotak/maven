@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../loop-lifecycle/0.0.8/loop-lifecycle-0.0.8.module",
+    "group": "com.tatotak.loop",
+    "module": "loop-lifecycle",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-lifecycle.aar",
+          "url": "loop-lifecycle-android-0.0.8.aar",
+          "size": 7560,
+          "sha512": "d654966299facd9cd9e70c77fedfbf2f472063d4808afddcccf6833db023de769f2f7eb835c82ca7b9734728b1803b8c5929b19b2a4317fd723e04b9ca6d3473",
+          "sha256": "6e867996cbc9a3d9b110ee7fcd5890e389a18c111f91748dd6cbfa3844373c43",
+          "sha1": "5ac27fc61a9e9cd3020f5fb2946b20d73f34219c",
+          "md5": "4b68df24e583c85ae3fd155152832ec1"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-lifecycle.aar",
+          "url": "loop-lifecycle-android-0.0.8.aar",
+          "size": 7560,
+          "sha512": "d654966299facd9cd9e70c77fedfbf2f472063d4808afddcccf6833db023de769f2f7eb835c82ca7b9734728b1803b8c5929b19b2a4317fd723e04b9ca6d3473",
+          "sha256": "6e867996cbc9a3d9b110ee7fcd5890e389a18c111f91748dd6cbfa3844373c43",
+          "sha1": "5ac27fc61a9e9cd3020f5fb2946b20d73f34219c",
+          "md5": "4b68df24e583c85ae3fd155152832ec1"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "loop-lifecycle-android-sources.jar",
+          "url": "loop-lifecycle-android-0.0.8-sources.jar",
+          "size": 2894,
+          "sha512": "919d010d277c8a7cf2570ffd6f052ba83c1c6d6512f5b320200a349facfa594c813cb6704ff93f74c12d2805240adda2a15b76dfb5133439b28e33f5bf809009",
+          "sha256": "3b541ae12e09f98ad57d8b4daa66638c890253ff8b6c37a8c8b53633fd12ce33",
+          "sha1": "09ce561285ec7c3cbc55a2b0b2349c06e1946290",
+          "md5": "a7a4916e4b7d9fb1f15e098e5f1c1a43"
+        }
+      ]
+    }
+  ]
+}
