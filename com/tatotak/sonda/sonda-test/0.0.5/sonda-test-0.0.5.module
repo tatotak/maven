@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tatotak.sonda",
+    "module": "sonda-test",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-test-metadata.jar",
+          "url": "sonda-test-0.0.5.jar",
+          "size": 703,
+          "sha512": "fdadb5e5c81e97938c37809ab26a1f79e8f4fbfdad8669ade77ab51160190a879ba8789a1eba6feb539d4e322d994a7b79e6e6337f8542f91270c23c2d5845c5",
+          "sha256": "82a86d8127523ff0248168f866e34294daa4951a4ee59b6517689147c280911c",
+          "sha1": "72e7d8e8186306a5583af8e391ef0eb708af0eb3",
+          "md5": "ebe6dc55d7880bf065db2d9797872da6"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sonda-test-kotlin-sources.jar",
+          "url": "sonda-test-0.0.5-sources.jar",
+          "size": 2115,
+          "sha512": "331ab39af28cc9b6b15380455e12994bab19268c27f2c2d02c34edadc6cc09d664e6eb82d7c4737a8c43135baa7563d024d9a2d15b4dd6447c71242fe93db420",
+          "sha256": "bb47b58027c199f51710b5bbaedcbdcc4e44d2a34fba937ff9583609a00c00a8",
+          "sha1": "faa70a6ee73d821cd3b8b8faa193ef75e0aa7ea2",
+          "md5": "d4b34a2b9a446fa037c062c53cf28996"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-android/0.0.5/sonda-test-android-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-android/0.0.5/sonda-test-android-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-android/0.0.5/sonda-test-android-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-jvm/0.0.5/sonda-test-jvm-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-jvm",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-jvm/0.0.5/sonda-test-jvm-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-jvm",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sonda-test-jvm/0.0.5/sonda-test-jvm-0.0.5.module",
+        "group": "com.tatotak.sonda",
+        "module": "sonda-test-jvm",
+        "version": "0.0.5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sonda-test/0.0.5/sonda-test-0.0.5.module",
+    "group": "com.tatotak.sonda",
+    "module": "sonda-test",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-test-jvm.jar",
+          "url": "sonda-test-jvm-0.0.5.jar",
+          "size": 7436,
+          "sha512": "0581e16ea8787d950a69396a8b3bf5c791f9b07fec29d806a6779ea79a8d9af44fe264f71661c397f5e8e567127766d1dac123e30f5ac4617c7ab8ec6f6cd6ed",
+          "sha256": "ab4526a2108a7ba45ca2791c1e594ade31522cc491b42ff17583556cbb663aab",
+          "sha1": "c2d4e051bdd79d5380decdb4a6e9cc7abc697e27",
+          "md5": "ca02629dea875df05f9c269a9414eaa6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "com.tatotak.sonda",
+          "module": "sonda-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-test-jvm.jar",
+          "url": "sonda-test-jvm-0.0.5.jar",
+          "size": 7436,
+          "sha512": "0581e16ea8787d950a69396a8b3bf5c791f9b07fec29d806a6779ea79a8d9af44fe264f71661c397f5e8e567127766d1dac123e30f5ac4617c7ab8ec6f6cd6ed",
+          "sha256": "ab4526a2108a7ba45ca2791c1e594ade31522cc491b42ff17583556cbb663aab",
+          "sha1": "c2d4e051bdd79d5380decdb4a6e9cc7abc697e27",
+          "md5": "ca02629dea875df05f9c269a9414eaa6"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sonda-test-jvm-sources.jar",
+          "url": "sonda-test-jvm-0.0.5-sources.jar",
+          "size": 2115,
+          "sha512": "331ab39af28cc9b6b15380455e12994bab19268c27f2c2d02c34edadc6cc09d664e6eb82d7c4737a8c43135baa7563d024d9a2d15b4dd6447c71242fe93db420",
+          "sha256": "bb47b58027c199f51710b5bbaedcbdcc4e44d2a34fba937ff9583609a00c00a8",
+          "sha1": "faa70a6ee73d821cd3b8b8faa193ef75e0aa7ea2",
+          "md5": "d4b34a2b9a446fa037c062c53cf28996"
+        }
+      ]
+    }
+  ]
+}

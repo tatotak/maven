@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sonda-core/0.0.5/sonda-core-0.0.5.module",
+    "group": "com.tatotak.sonda",
+    "module": "sonda-core",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-core.aar",
+          "url": "sonda-core-android-0.0.5.aar",
+          "size": 38481,
+          "sha512": "1b0c0427eb277f92976c8417bf3d09602f9d4db22cb1411ea20a1a0396bdd1ca0daa18a2d493732dc9af525f0fc6efa4cedb3a576deb083a40e5084102be0279",
+          "sha256": "9864dc52ad6d96f5e02de3d791192c362d8f716498142877ab0a70d5cbf23e46",
+          "sha1": "a587dcb2ea6141191d751a459ea8b020882fc4b3",
+          "md5": "4b9787549c6911d6348285d9cdb5396f"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-core.aar",
+          "url": "sonda-core-android-0.0.5.aar",
+          "size": 38481,
+          "sha512": "1b0c0427eb277f92976c8417bf3d09602f9d4db22cb1411ea20a1a0396bdd1ca0daa18a2d493732dc9af525f0fc6efa4cedb3a576deb083a40e5084102be0279",
+          "sha256": "9864dc52ad6d96f5e02de3d791192c362d8f716498142877ab0a70d5cbf23e46",
+          "sha1": "a587dcb2ea6141191d751a459ea8b020882fc4b3",
+          "md5": "4b9787549c6911d6348285d9cdb5396f"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sonda-core-android-sources.jar",
+          "url": "sonda-core-android-0.0.5-sources.jar",
+          "size": 9929,
+          "sha512": "a218580f6e2984d3450013c98bde00cb1b03c61fb4080057e31752a60fc3e7b89041fa7ee942c02166129c8cdba35590b53948dc672d67fd6262bd9e26359e4a",
+          "sha256": "fd177f23ac0aebb2ec37b5251f8405897a93a236f541a85a888096ea6d012a4c",
+          "sha1": "401da3d888847c74031f6ebcdfc41780a9f7ceb4",
+          "md5": "a97eb3fb5cc1869c44f1739efbb1cf60"
+        }
+      ]
+    }
+  ]
+}

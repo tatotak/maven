@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sonda-firebase/0.0.5/sonda-firebase-0.0.5.module",
+    "group": "com.tatotak.sonda",
+    "module": "sonda-firebase",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.sonda",
+          "module": "sonda-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-firebase.aar",
+          "url": "sonda-firebase-android-0.0.5.aar",
+          "size": 4475,
+          "sha512": "893d2ff75a339d505757d726c32c3b712a67b0a84c743d18825479f8d910330dfbc223619e8afcd83dc94000b9ae0031ccacebcef7a3d238e878e7997f21b495",
+          "sha256": "d6524556db70e26cdb8caa3fb1659f4e526c81af727aecad2264c7c128bd4536",
+          "sha1": "5762b483f8ad6cc19f6cef0d80403c00dbdbb29f",
+          "md5": "f0065ee87c84c4f81de9d84d3931e41e"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.sonda",
+          "module": "sonda-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "35.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.tatotak.sonda",
+          "module": "sonda-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-firebase.aar",
+          "url": "sonda-firebase-android-0.0.5.aar",
+          "size": 4475,
+          "sha512": "893d2ff75a339d505757d726c32c3b712a67b0a84c743d18825479f8d910330dfbc223619e8afcd83dc94000b9ae0031ccacebcef7a3d238e878e7997f21b495",
+          "sha256": "d6524556db70e26cdb8caa3fb1659f4e526c81af727aecad2264c7c128bd4536",
+          "sha1": "5762b483f8ad6cc19f6cef0d80403c00dbdbb29f",
+          "md5": "f0065ee87c84c4f81de9d84d3931e41e"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sonda-firebase-android-sources.jar",
+          "url": "sonda-firebase-android-0.0.5-sources.jar",
+          "size": 2353,
+          "sha512": "ddc84115373197e8d0124df602296e2506fb878601b89c29ec4981cc24ec192b09d8dcb99351820179702f393f7e826ffd13675350c5029b832e72e677ed81da",
+          "sha256": "61d4000c663f20260afb6ab3f5cf99bb072e6b19b3d6e5b04008642d18846c0f",
+          "sha1": "a7c50590c3bcabba3b50d0a8efa5e165a4d6af21",
+          "md5": "0f5abdfdbb6148a7098bf330b422e9ab"
+        }
+      ]
+    }
+  ]
+}

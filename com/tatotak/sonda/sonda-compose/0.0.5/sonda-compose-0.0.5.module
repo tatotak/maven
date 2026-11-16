@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tatotak.sonda",
+    "module": "sonda-compose",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-compose-0.0.5.aar",
+          "url": "sonda-compose-0.0.5.aar",
+          "size": 11208,
+          "sha512": "2aff2fb8ece2767a0671511da0ca066c4fbff763e691c9d8a7dfff46e5d01d155dc6306db7200e87f64ee994c919250d16b53cbe1b8af5dc0334b672e5459c23",
+          "sha256": "14ec7d091490b8207cdce508edf8985969def72c5935222eba5fbb829bfa8fc2",
+          "sha1": "54445f5612526b6bf17c56853fab09c9f3f519e6",
+          "md5": "9e3c01e1946e0b383dbfe95cca28607f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.sonda",
+          "module": "sonda-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonda-compose-0.0.5.aar",
+          "url": "sonda-compose-0.0.5.aar",
+          "size": 11208,
+          "sha512": "2aff2fb8ece2767a0671511da0ca066c4fbff763e691c9d8a7dfff46e5d01d155dc6306db7200e87f64ee994c919250d16b53cbe1b8af5dc0334b672e5459c23",
+          "sha256": "14ec7d091490b8207cdce508edf8985969def72c5935222eba5fbb829bfa8fc2",
+          "sha1": "54445f5612526b6bf17c56853fab09c9f3f519e6",
+          "md5": "9e3c01e1946e0b383dbfe95cca28607f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sonda-compose-0.0.5-sources.jar",
+          "url": "sonda-compose-0.0.5-sources.jar",
+          "size": 1293,
+          "sha512": "19b5ad6f9d7914b033f1da5e38831728fcdfe45e1cedc6b2321ae9aede12ba87c3fe726ee8ce67610a28203bfe8f3f5c980af2887c121eaa15006ffa65e24698",
+          "sha256": "6c8413fe3473a9f42483113afcfe98bd6532661807055890476be6a164d6985c",
+          "sha1": "be588309a7cf38d36315e37de51a7931c3aa7048",
+          "md5": "76c86fa2481654d2b5803edb4efb078b"
+        }
+      ]
+    }
+  ]
+}
