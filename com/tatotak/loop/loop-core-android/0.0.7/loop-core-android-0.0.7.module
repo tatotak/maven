@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../loop-core/0.0.7/loop-core-0.0.7.module",
+    "group": "com.tatotak.loop",
+    "module": "loop-core",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-core.aar",
+          "url": "loop-core-android-0.0.7.aar",
+          "size": 160234,
+          "sha512": "88ecc99b7dc248e38555123bdac06275aad6a8eb104e2666e7e2b0b2ed1361426f4098d0749c122a74b7badc15d58cb4319664c6006fd311d6186dbb2f82db2c",
+          "sha256": "e4795753167b4127d9e88d1198c543a93c8ac521dea0ca827b1ec03092462ace",
+          "sha1": "db7972de242d62e6a95e7a9e16b9d42268773b06",
+          "md5": "a6424049606afbbb6a7dd8aa0657dae4"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-core.aar",
+          "url": "loop-core-android-0.0.7.aar",
+          "size": 160234,
+          "sha512": "88ecc99b7dc248e38555123bdac06275aad6a8eb104e2666e7e2b0b2ed1361426f4098d0749c122a74b7badc15d58cb4319664c6006fd311d6186dbb2f82db2c",
+          "sha256": "e4795753167b4127d9e88d1198c543a93c8ac521dea0ca827b1ec03092462ace",
+          "sha1": "db7972de242d62e6a95e7a9e16b9d42268773b06",
+          "md5": "a6424049606afbbb6a7dd8aa0657dae4"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "loop-core-android-sources.jar",
+          "url": "loop-core-android-0.0.7-sources.jar",
+          "size": 8144,
+          "sha512": "084c4158c84801870921aa07df86db5f2dd0bf08db752707d77b06be88a1cc683ec03b8010d5feca7e0f63c46650e583468bedeea17f303969887b12574f27e9",
+          "sha256": "d9ec9906031273e9fcb8546a6ac3dba3b331cdb3ff9e069aef635b3acbc6f9c0",
+          "sha1": "78123d8729c670c3a63366517e46a72cbfe30a55",
+          "md5": "a6965cac2a6034db58aa9a6a5da67802"
+        }
+      ]
+    }
+  ]
+}

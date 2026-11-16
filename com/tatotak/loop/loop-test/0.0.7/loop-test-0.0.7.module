@@ -1,0 +1,290 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tatotak.loop",
+    "module": "loop-test",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.tatotak.loop",
+          "module": "loop-core",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loop-test-metadata.jar",
+          "url": "loop-test-0.0.7.jar",
+          "size": 5565,
+          "sha512": "ec875d9b00e751b6b9485f40376345893345dc422fbdc713dd779db5234f8ca8b003d74afa7222674e9b6219d3735c0b8225d1ee2c48bb7dce4d987401e7f4cd",
+          "sha256": "26b943ff3dd3daccfa3450ab591c17bd4404148adafdd132a72bbb47e0756138",
+          "sha1": "4a11c4624c453c4ca687f4fe6e0070c97397fff3",
+          "md5": "ca0d1b22e579266e219364f7a21358d7"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "loop-test-kotlin-sources.jar",
+          "url": "loop-test-0.0.7-sources.jar",
+          "size": 5094,
+          "sha512": "457a239a5f64ce4d3f1b6d3712c9657cdbfbbf0bfbb10f083c4fd0140710f6bff61a2ee1f0acc07ef7c8636927a099701614acfb42711fe9141134f6ed3b863d",
+          "sha256": "0d1ab1c95de6cfaa05df3e32d39161976b17f47cc509d10797789f3d047170a5",
+          "sha1": "222d110c4b14ac990c2a7723b4054bd25e88ef8b",
+          "md5": "65f1986662096c66d962d3a8295f0702"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-android/0.0.7/loop-test-android-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-android",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-android/0.0.7/loop-test-android-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-android",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-android/0.0.7/loop-test-android-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-android",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iosarm64/0.0.7/loop-test-iosarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iosarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iosarm64/0.0.7/loop-test-iosarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iosarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iosarm64/0.0.7/loop-test-iosarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iosarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iossimulatorarm64/0.0.7/loop-test-iossimulatorarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iossimulatorarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iossimulatorarm64/0.0.7/loop-test-iossimulatorarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iossimulatorarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../loop-test-iossimulatorarm64/0.0.7/loop-test-iossimulatorarm64-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-iossimulatorarm64",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-jvm/0.0.7/loop-test-jvm-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-jvm",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-jvm/0.0.7/loop-test-jvm-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-jvm",
+        "version": "0.0.7"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../loop-test-jvm/0.0.7/loop-test-jvm-0.0.7.module",
+        "group": "com.tatotak.loop",
+        "module": "loop-test-jvm",
+        "version": "0.0.7"
+      }
+    }
+  ]
+}
